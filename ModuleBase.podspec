@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleBase'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ModuleBase'
   
   s.description      = "a test lib for MoudleBase to support carthage、cocoapods and spm"
