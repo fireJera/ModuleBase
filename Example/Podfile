@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ModuleBase_Example' do
+  pod 'ModuleBase', :path => '../'
+
+  target 'ModuleBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,22 @@
+{
+  "name": "ModuleBase",
+  "version": "0.1.0",
+  "summary": "A short description of ModuleBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fireJera/ModuleBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fireJera": "renjie@yuanben.org"
+  },
+  "source": {
+    "git": "https://github.com/fireJera/ModuleBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ModuleBase/Classes/**/*"
+}
