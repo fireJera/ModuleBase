@@ -43,10 +43,10 @@
 		7ACDFCDA45A685BB64E43232 /* Pods-ModuleBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBase_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ModuleBase_Tests/Pods-ModuleBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8028891021B711ACDA28F8BC /* Pods-ModuleBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBase_Example.release.xcconfig"; path = "Target Support Files/Pods-ModuleBase_Example/Pods-ModuleBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		836D4B5DACC2CD8C7A4DDB63 /* Pods_ModuleBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E4D6BE8E4AFA4B73C777A28 /* ModuleBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ModuleBase.podspec; path = ../ModuleBase.podspec; sourceTree = "<group>"; };
-		C9AC498D8BA56C117F11B800 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9E4D6BE8E4AFA4B73C777A28 /* ModuleBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ModuleBase.podspec; path = ../ModuleBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9AC498D8BA56C117F11B800 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CF56B704E4EE738D705DF349 /* Pods-ModuleBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBase_Example.debug.xcconfig"; path = "Target Support Files/Pods-ModuleBase_Example/Pods-ModuleBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E95EDA72175325FBE72BC402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E95EDA72175325FBE72BC402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7ACDFCDA45A685BB64E43232 /* Pods-ModuleBase_Tests.debug.xcconfig */,
 				4C54A29E49C6929E6D7B7CE2 /* Pods-ModuleBase_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,12 +479,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ModuleBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -494,12 +495,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ModuleBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

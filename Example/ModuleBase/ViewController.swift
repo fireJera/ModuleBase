@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import ModuleBase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let m = ModuleBaseTest()
+        m.printTest()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
