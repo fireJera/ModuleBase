@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FBCAEA2D22A5E3793EFEA84E01FA84 /* ModuleBaseTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleBaseTest.swift; path = ModuleBase/Classes/ModuleBaseTest.swift; sourceTree = "<group>"; };
+		02FBCAEA2D22A5E3793EFEA84E01FA84 /* ModuleBaseTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleBaseTest.swift; path = Sources/ModuleBase/Classes/ModuleBaseTest.swift; sourceTree = "<group>"; };
 		0A09158675F82383741D7A75B5DC4B51 /* ModuleBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModuleBase-Info.plist"; sourceTree = "<group>"; };
 		1028E4170ECD61FF18FEB6A2F0AE8692 /* Pods-ModuleBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ModuleBase_Example.modulemap"; sourceTree = "<group>"; };
 		107431378DB8AD40E228B7D91B9A9170 /* Pods-ModuleBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
