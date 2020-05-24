@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ModuleBase.xcscheme</key>
+		<key>ModuleBase.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Pods-ModuleBase_Example.xcscheme</key>
 		<dict>
